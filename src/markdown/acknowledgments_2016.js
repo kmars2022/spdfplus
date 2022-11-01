@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2016"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2016 = `
+
 
 **ACKNOWLEDGMENTS 2016**
 
@@ -45,7 +42,7 @@ Sample usage= this study, the International Reference Ionosphere (IRI)
  Sample usage= for IRI topside option. The IRI-2012 version\
  Sample usage= ( CCMC ) can be viewed as\
  \
- 2. Title=On the origins and timescales of geoeffective IMF\
+ 1. Title=On the origins and timescales of geoeffective IMF\
  Authors=Lockwood, Mike; Owens, Mathew J.; Barnard, Luke A.; Bentley,
 Sarah; Scott, Chris J.; Watt, Clare E.;\
  article=2016SW001375; doi=10.1002/2016SW001375; pubdate=24 June 2016\
@@ -4212,3 +4209,7 @@ Malone, M.; Buonocore, J.; St. Maurice, J. P.; Donovan, E.; \
  Sample usage= data were taken from the OMNI database in which \
  \
 
+
+`;
+
+export default Acknownledgments2016;

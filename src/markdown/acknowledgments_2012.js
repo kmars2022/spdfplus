@@ -1,9 +1,4 @@
----
-title: "Acknowledgements 2012"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
-
+const Acknownledgments2012 = `
 **ACKNOWLEDGMENTS 2012**
 
 The AGU journals 'Space Weather', 'Journal of Geophysical Research/Space
@@ -46,7 +41,7 @@ Viereck Patrick T. Newell\
  article=2011SW000746; doi=10.1029/2011SW000746; pubdate=9 MAR 2012\
  Keywords found: OMNI, OMNI2\
  \
- 2. Title=Dynamic Radiation Environment Assimilation Model: DREAM\
+ 1. Title=Dynamic Radiation Environment Assimilation Model: DREAM\
  Authors=G. D. Reeves Y. Chen G. S. Cunningham R. W. H. Friedel M. G.
 Henderson V. K. Jordanova J. Koller S. K. Morley M. F. Thomsen S.
 Zaharia\
@@ -1448,3 +1443,7 @@ the Very Large Array VHF system\
 
 \
 
+
+`;
+
+export default Acknownledgments2012;

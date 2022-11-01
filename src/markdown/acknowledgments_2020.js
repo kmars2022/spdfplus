@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2020"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2020 = `
+
 **ACKNOWLEDGMENTS 2020**
 
 The AGU journals 'Space Weather', 'Journal of Geophysical Research/Space
@@ -45,20 +42,20 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= and geomagnetic conditions from the OMNI 1-minute reso-
     Sample usage= testing of ionosphere models iri-2001 and iri-2007, data from satellite
 
-    2. Title=When Plasma Streams Tie up Equatorial Plasma Irregularities with Auroral Ones
+    1. Title=When Plasma Streams Tie up Equatorial Plasma Irregularities with Auroral Ones
     Authors=Irina Zakharenkova; Iurii Cherniak;
     article=2019SW002375; doi=10.1029/2019SW002375; pubdate=05 February 2020
     Keywords found: OMNIWeb
     Sample usage= Data Facility’s OMNIWeb service for
 
-    3. Title=Forecasting Megaelectron Volt Electrons inside Earth's Outer Radiation Belt: PreMevE 2.0 Based on Supervised Machine Learning Algorithms
+    1. Title=Forecasting Megaelectron Volt Electrons inside Earth's Outer Radiation Belt: PreMevE 2.0 Based on Supervised Machine Learning Algorithms
     Authors=Rafael Pires de Lima; Yue Chen; Youzuo Lin;
     article=2019SW002399; doi=10.1029/2019SW002399; pubdate=10 February 2020
     Keywords found: CDAWeb, OMNI
     Sample usage= Panel E are downloaded from CDAweb site and added to models
     Sample usage= Thanks to CDAWeb for providing OMNI data. RBSP and POES data
 
-    4. Title=MHD Modeling of the Background Solar Wind in the Inner Heliosphere from 0.1 to 5.5 AU: Comparison with In Situ Observations
+    1. Title=MHD Modeling of the Background Solar Wind in the Inner Heliosphere from 0.1 to 5.5 AU: Comparison with In Situ Observations
     Authors=Y.X. Wang; X.C. Guo; C. Wang; V. Florinski; F. Shen; H. Li; M. Blanc;
     article=2019SW002262; doi=10.1029/2019SW002262; pubdate=20 February 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI, NSSDC
@@ -67,25 +64,25 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= at 1 AU from the OMNI
     Sample usage= space science data center ( nssdc ),
 
-    5. Title=Interhemispheric Asymmetries in the Ground Magnetic Response to Interplanetary Shocks: The Role of Shock Impact Angle
+    1. Title=Interhemispheric Asymmetries in the Ground Magnetic Response to Interplanetary Shocks: The Role of Shock Impact Angle
     Authors=Z. Xu; M. D. Hartinger; D. M. Oliveira; S. Coyle; C. R. Clauer; D. Weimer; T. R. Edwards;
     article=2019SW002427; doi=10.1029/2019SW002427; pubdate=28 February 2020
     Keywords found: CDAWeb
     Sample usage= mist.nianet.org or NASA CDAWeb ,
 
-    6. Title=TEC Map Completion Using DCGAN and Poisson Blending
+    1. Title=TEC Map Completion Using DCGAN and Poisson Blending
     Authors=Yang Pan; Mingwu Jin; Shunrong Zhang; Yue Deng;
     article=2019SW002390; doi=10.1029/2019SW002390; pubdate=06 April 2020
     Keywords found: CDAWeb
     Sample usage= data are downloaded from https:// cdaweb .gsfc.nasa.gov/pub/data/gps/ (HernndezPajares,
 
-    7. Title=Predictive Capabilities and Limitations of Stream Interaction Region Observations at Different Solar Longitudes
+    1. Title=Predictive Capabilities and Limitations of Stream Interaction Region Observations at Different Solar Longitudes
     Authors=R. C. Allen; G. C. Ho; L. K. Jian; G. M. Mason; S. K. Vines; D. Lario;
     article=2019SW002437; doi=10.1029/2019SW002437; pubdate=16 April 2020
     Keywords found: COHOWeb
     Sample usage= can be found at https:// cohoweb .gsfc.
 
-    8. Title=A Framework for Understanding and Quantifying the Loss and Acceleration of Relativistic Electrons in the Outer Radiation Belt During Geomagnetic Storms
+    1. Title=A Framework for Understanding and Quantifying the Loss and Acceleration of Relativistic Electrons in the Outer Radiation Belt During Geomagnetic Storms
     Authors=Kyle R. Murphy; Ian R. Mann; David G. Sibeck; I. Jonathan Rae; C.E.J. Watt; Louis G. Ozeke; Shri G. Kanekal; Daniel N. Baker;
     article=2020SW002477; doi=10.1029/2020SW002477; pubdate=17 April 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI
@@ -93,20 +90,20 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= through OMNIweb (omniweb.gsfc.
     Sample usage= consider only storms where SAMPEX, OMNI , and
 
-    9. Title=Application of a Modified Spheromak Model to Simulations of Coronal Mass Ejection in the Inner Heliosphere
+    1. Title=Application of a Modified Spheromak Model to Simulations of Coronal Mass Ejection in the Inner Heliosphere
     Authors=Talwinder Singh; Tae K. Kim; Nikolai V. Pogorelov; Charles N. Arge;
     article=2019SW002405; doi=10.1029/2019SW002405; pubdate=23 April 2020
     Keywords found: OMNIWeb, OMNI
     Sample usage= NASA/GSFC's OMNI data set through OMNIWeb (King & Papitashvili,
     Sample usage= density (and temperature) based on OMNI data (Elliott
 
-    10. Title=Data Assimilative Optimization of WSA Source Surface and Interface Radii using Particle Filtering
+    1.  Title=Data Assimilative Optimization of WSA Source Surface and Interface Radii using Particle Filtering
     Authors=Grant David Meadors; Shaela I. Jones; Kyle S. Hickmann; Charles N. Arge; Humberto C. Godinez Vasquez; Carl J. Henney;
     article=2020SW002464; doi=10.1029/2020SW002464; pubdate=29 April 2020
     Keywords found: OMNIWeb
     Sample usage= available at https:// omniweb .gsfc.nasa.
 
-    11. Title=Prediction of Dst During Solar Minimum Using In Situ Measurements at L5
+    1.  Title=Prediction of Dst During Solar Minimum Using In Situ Measurements at L5
     Authors=R. L. Bailey; C. Möstl; M. A. Reiss; A. J. Weiss; U. V. Amerstorfer; T. Amerstorfer; J. Hinterreiter; W. Magnes; R. Leonhardt;
     article=2019SW002424; doi=10.1029/2019SW002424; pubdate=29 April 2020
     Keywords found: OMNI, OMNI2, SPDF
@@ -114,7 +111,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= When using the OMNI2 data set as input and
     Sample usage= (1) OMNI2: https:// spdf .gsfc.nasa.gov/pub/data/omni/low_res_omni/
 
-    12. Title=Assessment and validation of three ionospheric models (IRI 2016, NeQuick2 and IGS GIM) from 2002 to 2018
+    1.  Title=Assessment and validation of three ionospheric models (IRI 2016, NeQuick2 and IGS GIM) from 2002 to 2018
     Authors=Jun Chen; Xiaodong Ren; Xiaohong Zhang; Jingcheng Zhang; Liangke Huang;
     article=2019SW002422; doi=10.1029/2019SW002422; pubdate=30 April 2020
     Keywords found: OMNIWeb, International Reference Ionosphere, IRI-\d{2,4}, IRI\d{2,4}
@@ -123,7 +120,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= of three ionospheric models ( IRI-2016 , NeQuick2 and
     Sample usage= the last two decades from IRI2001 . It is continuously updated
 
-    13. Title=Assimilation of GNSS Measurements for Estimation of High Latitude Convection Processes
+    1.  Title=Assimilation of GNSS Measurements for Estimation of High Latitude Convection Processes
     Authors=Daniel S. Miladinovich; Seebany Datta Barua; Aurora Lopez Rubio; Shunrong Zhang; Gary S. Bust;
     article=2019SW002409; doi=10.1029/2019SW002409; pubdate=15 May 2020
     Keywords found: ModelWeb, International Reference Ionosphere, CCMC
@@ -131,14 +128,14 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= terms are computed using the International Reference Ionosphere (IRI 2007)
     Sample usage= is available at https:// ccmc .gsfc.nasa.gov/pub/modelweb/ionospheric/iri/. NRLMSISE-
 
-    14. Title=The Day night Difference and Geomagnetic Activity Variation of Energetic Electron Fluxes in Region of South Atlantic Anomaly
+    1.  Title=The Day night Difference and Geomagnetic Activity Variation of Energetic Electron Fluxes in Region of South Atlantic Anomaly
     Authors=L. Y. Li; S. P. Zhou; S. H. Wei; J. Y. Yang; J. A. Sauvaud; J. J. Berthelier;
     article=2020SW002479; doi=10.1029/2020SW002479; pubdate=16 May 2020
     Keywords found: CDAWeb, OMNI
     Sample usage= the OMNI database in the CDAWeb http://cdaweb.gsfc.nasa.gov/sp_phys. We thank all
     Sample usage= from the OMNI database in the CDAWeb http://cdaweb.gsfc.nasa.gov/sp_phys.
 
-    15. Title=Spatial and temporal evolution of different scale ionospheric irregularities in Central and East Siberia during the 27 28 May 2017 geomagnetic storm
+    1.  Title=Spatial and temporal evolution of different scale ionospheric irregularities in Central and East Siberia during the 27 28 May 2017 geomagnetic storm
     Authors=V. B. Ovodenko; M. V. Klimenko; I. E. Zakharenkova; A. V. Oinats; D. S. Kotova; A. V. Nikolaev; I. V. Tyutin; D. D. Rogov; K. G. Ratovsky; D. V. Chugunin; P. A. Budnikov; J. C. Coxon; B. J. Anderson; A. A. Chernyshov;
     article=2019SW002378; doi=10.1029/2019SW002378; pubdate=19 May 2020
     Keywords found: OMNIWeb, International Reference Ionosphere, IRI-\d{2,4}
@@ -146,7 +143,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= Reinisch, B. W. (2014). The International Reference Ionosphere 2012 - a model of
     Sample usage= ISTP SD RAS using the IRI-2012 ionospheric median model (Bilitza et
 
-    16. Title=Characterizing extreme geomagnetic storms using Extreme Value Analysis: a discussion on the representativeness of short datasets
+    1.  Title=Characterizing extreme geomagnetic storms using Extreme Value Analysis: a discussion on the representativeness of short datasets
     Authors=G. Bernoux; V. Maget;
     article=2020SW002450; doi=10.1029/2020SW002450; pubdate=23 May 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI, SPDF
@@ -155,20 +152,20 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= network and ISGI (isgi.unistra.fr). The OMNI data
     Sample usage= were obtained from the GSFC/ SPDF OMNIWeb interface at https://omniweb.gsfc.nasa.gov/. Sunspot
 
-    17. Title=Including the Temporal Dimension in the SECS Technique
+    1.  Title=Including the Temporal Dimension in the SECS Technique
     Authors=S. Marsal; J. M. Torta; F. J. Pavn Carrasco; S. P. Blake; M. Piersanti;
     article=2020SW002491; doi=10.1029/2020SW002491; pubdate=08 June 2020
     Keywords found: OMNIWeb
     Sample usage= were taken from the NASA Omniweb repository
 
-    18. Title=High speed solar wind imprints on the ionosphere during the recovery phase of the August 2018 geomagnetic storm
+    1.  Title=High speed solar wind imprints on the ionosphere during the recovery phase of the August 2018 geomagnetic storm
     Authors=Dexin Ren; Jiuhou Lei; Su Zhou; Wenbo Li; Fuqing Huang; Xiaoli Luan; Tong Dang; Yu Liu;
     article=2020SW002480; doi=10.1029/2020SW002480; pubdate=08 June 2020
     Keywords found: CDAWeb, OMNIWeb
     Sample usage= (41874184 and 41674154). We acknowledge CDAWeb
     Sample usage= solar wind and IMF data, OMNIWeb
 
-    19. Title=Solar wind prediction using deep learning
+    1.  Title=Solar wind prediction using deep learning
     Authors=Vishal Upendran; Mark C. M. Cheung; Shravan Hanasoge; Ganapathy Krishnamurthi;
     article=2020SW002478; doi=10.1029/2020SW002478; pubdate=10 June 2020
     Keywords found: OMNIWeb, OMNI, Space Physics Data Facility
@@ -176,40 +173,40 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= standard deviation is computed over OMNI measurements for each day,
     Sample usage= We acknowledge use of NASA/GSFC's Space Physics Data Facility'sOMNIWeb service, and OMNI
 
-    20. Title=The value of CME arrival time forecasts for space weather mitigation
+    1.  Title=The value of CME arrival time forecasts for space weather mitigation
     Authors=M. J. Owens; M. Lockwood; L. A. Barnard;
     article=2020SW002507; doi=10.1029/2020SW002507; pubdate=10 June 2020
     Keywords found: OMNIWeb, OMNI
     Sample usage= data are available from https:// omniweb .gsfc81.nasa.gov/.
     Sample usage= ) are obtained from the OMNI dataset
 
-    21. Title=Forecasting GOES 15 >2 MeV electron fluxes from solar wind data and geomagnetic indices
+    1.  Title=Forecasting GOES 15 >2 MeV electron fluxes from solar wind data and geomagnetic indices
     Authors=C. Forsyth; C. E. J. Watt; M. K. Mooney; I. J. Rae; S. D. Walton; R. B. Horne;
     article=2019SW002416; doi=10.1029/2019SW002416; pubdate=10 June 2020
     Keywords found: CDAWeb, OMNI
     Sample usage= all obtained through the NASA CDAWeb data service.
     Sample usage= Grant NE/V002554/1. GOES flux and OMNI data used in this study
 
-    22. Title=On the regional variability of dB/dt and its significance to GIC
+    1.  Title=On the regional variability of dB/dt and its significance to GIC
     Authors=A. P. Dimmock; L. Rosenqvist; D. Welling; A. Viljanen; I. Honkonen; R. J. Boynton; E. Yordanova;
     article=2020SW002497; doi=10.1029/2020SW002497; pubdate=25 June 2020
     Keywords found: OMNIWeb, OMNI
     Sample usage= data are obtained via the OMNIWeb service (http://omniweb.gsfc.nasa.gov/),
     Sample usage= drivers are identified based on OMNI data; finally, we investigate the
 
-    23. Title=Geomagnetic storm induced plasma density enhancements in the southern polar ionospheric region: a comparative study using St. Patrick-s day storms of 2013 and 2015
+    1.  Title=Geomagnetic storm induced plasma density enhancements in the southern polar ionospheric region: a comparative study using St. Patrick-s day storms of 2013 and 2015
     Authors=P. R. Shreedevi; R. K. Choudhary; Smitha V. Thampi; Sneha Yadav; T. K. Pant; Yiqun Yu; Ryan McGranaghan; Evan G. Thomas; Anil Bhardwaj; A. K. Sinha;
     article=2019SW002383; doi=10.1029/2019SW002383; pubdate=02 July 2020
     Keywords found: CDAWeb
     Sample usage= and are available on the CDAWeb (http://cdaweb.gsfc.nasa.gov/).
 
-    24. Title=Evaluation of Physics Based Data Assimilation System Driven by Neutral Density Data from A Single Satellite
+    1.  Title=Evaluation of Physics Based Data Assimilation System Driven by Neutral Density Data from A Single Satellite
     Authors=Dexin Ren; Jiuhou Lei;
     article=2020SW002504; doi=10.1029/2020SW002504; pubdate=11 July 2020
     Keywords found: OMNIWeb
     Sample usage= Chinese Meridian Project". We acknowledge OMNIWeb (https:// omniweb.gsfc.nasa.gov/)
 
-    25. Title=Measurements and Simulations of the Geomagnetically Induced Currents in Low latitude Power Networks During Geomagnetic Storms
+    1.  Title=Measurements and Simulations of the Geomagnetically Induced Currents in Low latitude Power Networks During Geomagnetic Storms
     Authors=J. J. Zhang; Y. Q. Yu; C. Wang; D. Du; D. Wei; L. G. Liu;
     article=2020SW002549; doi=10.1029/2020SW002549; pubdate=13 July 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI, Space Physics Data Facility
@@ -218,7 +215,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= were downloaded from the NASA OMNI database
     Sample usage= acknowledge use of NASA/GSFC's Space Physics Data Facility'sOMNIWeb service, and
 
-    26. Title=Relativistic Electron Flux Prediction at Geosynchronous Orbit Based on the Neural Network and the Quantile Regression Method
+    1.  Title=Relativistic Electron Flux Prediction at Geosynchronous Orbit Based on the Neural Network and the Quantile Regression Method
     Authors=Hui Zhang; Suiyan Fu; Lun Xie; Duo Zhao; Chao Yue; Zuyin Pu; Ying Xiong; Tong Wu; Shaojie Zhao; Yixin Sun; Bo Cui; Zhekai Luo;
     article=2020SW002445; doi=10.1029/2020SW002445; pubdate=22 July 2020
     Keywords found: OMNIWeb, SPDF, Space Physics Data Facility
@@ -226,31 +223,31 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= Space Physics Data Facility ( SPDF ) at
     Sample usage= data. We also thank the Space Physics Data Facility (SPDF) at
 
-    27. Title=Galactic Cosmic Radiation in the Interplanetary Space Through a Modern Secular Minimum
+    1.  Title=Galactic Cosmic Radiation in the Interplanetary Space Through a Modern Secular Minimum
     Authors=F. Rahmanifard; W. C. de Wet; N. A. Schwadron; M. J. Owens; A. P. Jordan; J. K. Wilson; C. J. Joyce; H. E. Spence; C. W. Smith; L. W. Townsend;
     article=2019SW002428; doi=10.1029/2019SW002428; pubdate=23 July 2020
     Keywords found: OMNI
     Sample usage= of the HMF from the OMNI dataset. OMNI compiles a set
 
-    28. Title=Space weather monitor at the L5 point: a case study of a CME observed with STEREO B
+    1.  Title=Space weather monitor at the L5 point: a case study of a CME observed with STEREO B
     Authors=L. Rodriguez; C. Scolini; M. Mierla; A. N. Zhukov; M. J. West;
     article=2020SW002533; doi=10.1029/2020SW002533; pubdate=23 July 2020
     Keywords found: CDAWeb
     Sample usage= 220 km s1 (from the CDAWeb LASCO CME catalog, https://cdaw.
 
-    29. Title=Evaluation of total electron content prediction using three ionosphere thermosphere models
+    1.  Title=Evaluation of total electron content prediction using three ionosphere thermosphere models
     Authors=O. Verkhoglyadova; X. Meng; A. J. Mannucci; J. S. Shim; R. McGranaghan;
     article=2020SW002452; doi=10.1029/2020SW002452; pubdate=04 August 2020
     Keywords found: OMNI
     Sample usage= were taken from the OMNI database. The modeling runs were
 
-    30. Title=On the assessment of daily Equatorial Plasma Bubble occurrence modeling and forecasting
+    1.  Title=On the assessment of daily Equatorial Plasma Bubble occurrence modeling and forecasting
     Authors=B. A. Carter; J. L. Currie; T. Dao; E. Yizengaw; J. Retterer; M. Terkildsen; K. Groves; R. Caton;
     article=2020SW002555; doi=10.1029/2020SW002555; pubdate=10 August 2020
     Keywords found: OMNIWeb
     Sample usage= data were obtained from the OMNIWeb website, http://omniweb.gsfc.nasa.gov/.
 
-    31. Title=Variations of TEC over Iberian Peninsula in 2015 due to geomagnetic storms and solar flares
+    1.  Title=Variations of TEC over Iberian Peninsula in 2015 due to geomagnetic storms and solar flares
     Authors=A. L. Morozova; T. V. Barlyaeva; T. Barata;
     article=2020SW002516; doi=10.1029/2020SW002516; pubdate=10 August 2020
     Keywords found: OMNIWeb, OMNI, SPDF
@@ -258,13 +255,13 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= properties were obtained from the OMNI data base. In this
     Sample usage= ap index are from the SPDF OMNIWeb database. The OMNI
 
-    32. Title=Storm time modeling of the African regional ionospheric Total Electron Content using artificial neural networks
+    1.  Title=Storm time modeling of the African regional ionospheric Total Electron Content using artificial neural networks
     Authors=Daniel Okoh; John Bosco Habarulema; Babatunde Rabiu; Gopi Seemala; Joshua Benjamin Wisdom; Joseph Olwendo; Olivier Obrou; Tshimangadzo Merline Matamba;
     article=2020SW002525; doi=10.1029/2020SW002525; pubdate=10 August 2020
     Keywords found: OMNIWeb
     Sample usage= OMNIWeb
 
-    33. Title=Impact of Inner Heliospheric Boundary Conditions on Solar Wind Predictions at Earth
+    1.  Title=Impact of Inner Heliospheric Boundary Conditions on Solar Wind Predictions at Earth
     Authors=Siegfried Gonzi; M. Weinzierl; F. X. Bocquet; M. M. Bisi; D. Odstrcil; B. V. Jackson; A. R. Yeates; D. R. Jackson; C. J. Henney; C. Nikolos Arge;
     article=2020SW002499; doi=10.1029/2020SW002499; pubdate=21 August 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI, SPDF, Space Physics Data Facility
@@ -274,13 +271,13 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= the OMNI data base (https:// spdf .gsfc.nasa
     Sample usage= Space Physics Data Facility'sOMNIWeb service, and OMNI
 
-    34. Title=CME arrival prediction using ensemble modeling based on heliospheric imaging observations
+    1.  Title=CME arrival prediction using ensemble modeling based on heliospheric imaging observations
     Authors=Tanja Amerstorfer; Jürgen Hinterreiter; Martin A. Reiss; Christian Moestl; Jackie A. Davies; Rachel L. Bailey; Andreas J. Weiss; Mateja Dumbovic; Maike Bauer; Ute V. Amerstorfer; Richard A. Harrison;
     article=2020SW002553; doi=10.1029/2020SW002553; pubdate=01 September 2020
     Keywords found: OMNI
     Sample usage= mean solar wind speed in OMNI data between the years 2004
 
-    35. Title=Medium Range Forecasting of Solar Wind: A Case Study of Building Regression Model with Space Weather Forecast Testbed (SWFT)
+    1.  Title=Medium Range Forecasting of Solar Wind: A Case Study of Building Regression Model with Space Weather Forecast Testbed (SWFT)
     Authors=Chunming Wang; I. Gary Rosen; Bruce T. Tsurutani; Olga P. Verkhoglyadova; Xing Meng; Anthony J. Mannucci;
     article=2019SW002433; doi=10.1029/2019SW002433; pubdate=01 September 2020
     Keywords found: OMNIWeb, International Reference Ionosphere, IRI-\d{2,4}
@@ -288,7 +285,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= D., & Reinisch, B. (2007). International reference ionosphere 2007: Improvements and new parameters.
     Sample usage= an empirical model such as IRI-2012 , MSIS or GPS
 
-    36. Title=Assimilation of Sparse Continuous Near Earth Weather Measurements by NECTAR Model Morphing
+    1.  Title=Assimilation of Sparse Continuous Near Earth Weather Measurements by NECTAR Model Morphing
     Authors=I. A. Galkin; B. W. Reinisch; A. M. Vesnin; D. Bilitza; S. Fridman; J. B. Habarulema; O. Veliz;
     article=2020SW002463; doi=10.1029/2020SW002463; pubdate=01 September 2020
     Keywords found: NSSDC, Space Physics Data Facility, International Reference Ionosphere
@@ -296,33 +293,33 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= Space Physics Data Facility , NASA, GSFC, Greenbelt, MD
     Sample usage= before, we still use the International Reference Ionosphere (IRI) model (Bilitza, 1990;
 
-    37. Title=Reconstruction of extreme geomagnetic storms: Breaking the data paucity curse
+    1.  Title=Reconstruction of extreme geomagnetic storms: Breaking the data paucity curse
     Authors=M. I. Sitnov; G. K. Stephens; N. A. Tsyganenko; H. Korth; E. C. Roelof; P. C. Brandt; V. G. Merkin; A. Y. Ukhorskiy;
     article=2020SW002561; doi=10.1029/2020SW002561; pubdate=30 September 2020
     Keywords found: OMNI, SPDF
     Sample usage= thank the SPDF for the OMNI database for solar wind
     Sample usage= teams. We also thank the SPDF for the OMNI database for
 
-    38. Title=Probabilistic Forecasts of Storm Sudden Commencements from Interplanetary Shocks using Machine Learning
+    1.  Title=Probabilistic Forecasts of Storm Sudden Commencements from Interplanetary Shocks using Machine Learning
     Authors=A. W. Smith; I. J. Rae; C. Forsyth; D. M. Oliveira; M. P. Freeman; D. R. Jackson;
     article=2020SW002603; doi=10.1029/2020SW002603; pubdate=14 October 2020
     Keywords found: CDAWeb, Space Physics Data Facility
     Sample usage= GSFCs Space Physics Data Facility's CDAWeb service for data availability (https://
     Sample usage= GSFCs Space Physics Data Facility's CDAWeb service for data
 
-    39. Title=Medium Energy Electron Flux in Earth's Outer Radiation Belt (MERLIN): A Machine Learning Model
+    1.  Title=Medium Energy Electron Flux in Earth's Outer Radiation Belt (MERLIN): A Machine Learning Model
     Authors=A. G. Smirnov; M. Berrendorf; Y. Y. Shprits; E. A. Kronberg; H. J. Allison; N. A. Aseev; I. S. Zhelavskaya; S. K. Morley; G. D. Reeves; M. R. Carver; F. Effenberger;
     article=2020SW002532; doi=10.1029/2020SW002532; pubdate=14 October 2020
     Keywords found: OMNIWeb
     Sample usage= the OMNIWeb database [omniweb.gsfc.nasa.gov]. First, amongst the
 
-    40. Title=The Polar Cap (PC) Index: Invalid Index Series and a Different Approach
+    1.  Title=The Polar Cap (PC) Index: Invalid Index Series and a Different Approach
     Authors=Peter Stauning;
     article=2020SW002442; doi=10.1029/2020SW002442; pubdate=15 October 2020
     Keywords found: OMNIWeb
     Sample usage= BY component are derived from OMNIweb
 
-    41. Title=Ionospheric Current Variations Induced by Solar Flares of 6 and 10 September 2017
+    1.  Title=Ionospheric Current Variations Induced by Solar Flares of 6 and 10 September 2017
     Authors=Charles Owolabi; Jiuhou Lei; O. S. Bolaji; Dexin Ren; Akimasa Yoshikawa;
     article=2020SW002608; doi=10.1029/2020SW002608; pubdate=16 October 2020
     Keywords found: CDAWeb, OMNIWeb, Space Physics Data Facility
@@ -330,14 +327,14 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= (Kp) indices were obtained from OMNIWeb page to appraise
     Sample usage= ACE solar wind data and Space Physics Data Facility /Goddard Space Flight Center OMNIWeb
 
-    42. Title=Forcing from Lower Thermosphere and Quiet Time Scintillation Longitudinal Dependence
+    1.  Title=Forcing from Lower Thermosphere and Quiet Time Scintillation Longitudinal Dependence
     Authors=Endawoke Yizengaw; Keith Groves;
     article=2020SW002610; doi=10.1029/2020SW002610; pubdate=16 October 2020
     Keywords found: CDAWeb, SPDF
     Sample usage= obtained from (https:// cdaweb .gsfc.nasa.gov/cdaweb/istp_public/). Authors thank the ISSI
     Sample usage= available at (https:// spdf .gsfc.nasa.gov/pub/data/cnofs/), and SABER temperature profiles
 
-    43. Title=Regional ionospheric parameter estimation by assimilating the LSTM trained results into the SAMI2 model
+    1.  Title=Regional ionospheric parameter estimation by assimilating the LSTM trained results into the SAMI2 model
     Authors=Jeong Heon Kim; Young Sil Kwak; Yong Ha Kim; Su In Moon; Se Heon Jeong; Jong Yeon Yun;
     article=2020SW002590; doi=10.1029/2020SW002590; pubdate=16 October 2020
     Keywords found: OMNIWeb, OMNI, International Reference Ionosphere, IRI-\d{2,4}, IRI\d{2,4}
@@ -347,7 +344,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= those of the SAMI2 and IRI-2016 models during the geomagnetic quiet
     Sample usage= ionospheric driver. In contrast, the IRI2016 model used the FORTRAN version
 
-    44. Title=Storm Time Plasma Pressure Inferred from Multi Mission Measurements and Its Validation using Van Allen Probes Particle Data
+    1.  Title=Storm Time Plasma Pressure Inferred from Multi Mission Measurements and Its Validation using Van Allen Probes Particle Data
     Authors=G. K. Stephens; S. T. Bingham; M. I. Sitnov; M. Gkioulidou; S. Merkin; H. Korth; N. A. Tsyganenko; A. Y. Ukhorskiy;
     article=2020SW002583; doi=10.1029/2020SW002583; pubdate=19 October 2020
     Keywords found: OMNIWeb, OMNI, SPDF
@@ -355,28 +352,28 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= OMNI database (https://omniweb.gsfc.nasa.gov/ow_min.html) which are derived
     Sample usage= teams. We also thank, the SPDF for the OMNI
 
-    45. Title=Characterizing auroral zone absorption based on global Kp and regional geomagnetic hourly range indices
+    1.  Title=Characterizing auroral zone absorption based on global Kp and regional geomagnetic hourly range indices
     Authors=R. A. D. Fiori; L. Trichtchenko; C. Balch; E. Spanswick; S. Groleau;
     article=2020SW002572; doi=10.1029/2020SW002572; pubdate=22 October 2020
     Keywords found: CDAWeb, OMNI
     Sample usage= Coordinated Data Analysis Web (https:// cdaweb .gsfc.nasa.gov/cdaweb/istp_public/). Figure
     Sample usage= values reported in the OMNI HRO 1-minute data files available
 
-    46. Title=A Simple Method for Correcting Empirical Model Densities during Geomagnetic Storms Using Satellite Orbit Data
+    1.  Title=A Simple Method for Correcting Empirical Model Densities during Geomagnetic Storms Using Satellite Orbit Data
     Authors=Daniel A. Brandt; Charles D. Bussy Virat; Aaron J. Ridley;
     article=2020SW002565; doi=10.1029/2020SW002565; pubdate=22 October 2020
     Keywords found: OMNIWeb, Space Physics Data Facility
     Sample usage= available through either the NASA OMNIWeb website (https://
     Sample usage= are either taken from NASAs Space Physics Data Facility OMNIWeb service or SWPC. This
 
-    47. Title=Long Term Observations of Galactic Cosmic Ray LET Spectra in Lunar Orbit by LRO/CRaTER
+    1.  Title=Long Term Observations of Galactic Cosmic Ray LET Spectra in Lunar Orbit by LRO/CRaTER
     Authors=M. D. Looper; J. E. Mazur; J. B. Blake; H. E. Spence; N. A. Schwadron; J. K. Wilson; A. P. Jordan; C. Zeitlin; A. W. Case; J. C. Kasper; L. W. Townsend; T. J. Stubbs;
     article=2020SW002543; doi=10.1029/2020SW002543; pubdate=04 November 2020
     Keywords found: OMNIWeb, OMNI
     Sample usage= through OMNIWeb , is animated as a
     Sample usage= sunspot number extracted from NASA/GSFC's OMNI dataset
 
-    48. Title=Geomagnetic Pulsations Driving Geomagnetically Induced Currents
+    1.  Title=Geomagnetic Pulsations Driving Geomagnetically Induced Currents
     Authors=M. J. Heyns; S. I. Lotz; C. T. Gaunt;
     article=2020SW002557; doi=10.1029/2020SW002557; pubdate=04 November 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI, Space Physics Data Facility
@@ -385,7 +382,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= or ftp) service and OMNI data for the SYM-H index
     Sample usage= & Gjerloev, 2011) and NASA/GSFC's Space Physics Data Facility'sOMNIWeb (or CDAWeb
 
-    49. Title=Forecasting global ionospheric total electron content (TEC) using deep learning approach
+    1.  Title=Forecasting global ionospheric total electron content (TEC) using deep learning approach
     Authors=Lei Liu; Shasha Zou; Yibin Yao; Zihan Wang;
     article=2020SW002501; doi=10.1029/2020SW002501; pubdate=09 November 2020
     Keywords found: SPDF, International Reference Ionosphere, IRI-\d{2,4}, IRI\d{2,4}
@@ -394,13 +391,13 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= empirical models ( IRI-2016 and NeQuick-2).
     Sample usage= when compared to the traditional IRI2016 and NeQuick-2 models. One can
 
-    50. Title=Evaluating the performance of a plasma analyzer for a space weather monitor mission concept
+    1.  Title=Evaluating the performance of a plasma analyzer for a space weather monitor mission concept
     Authors=G. Nicolaou; R. T. Wicks; I. J. Rae; D. O. Kataria;
     article=2020SW002559; doi=10.1029/2020SW002559; pubdate=13 November 2020
     Keywords found: CDAWeb
     Sample usage= 2 data found at https:// cdaweb .gsfc.nasa.gov/cgi-bin/eval2.cgi,
 
-    51. Title=Forecasting SYM H Index: A Comparison Between Long Short Term Memory and Convolutional Neural Networks
+    1.  Title=Forecasting SYM H Index: A Comparison Between Long Short Term Memory and Convolutional Neural Networks
     Authors=F. Siciliano; G. Consolini; R. Tozzi; M. Gentili; F. Giannattasio; P. De Michelis;
     article=2020SW002589; doi=10.1029/2020SW002589; pubdate=21 November 2020
     Keywords found: CDAWeb, OMNIWeb, OMNI, SPDF
@@ -409,14 +406,14 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= in the desired sampling ( OMNI HRO 5MIN), 5-minute averages of
     Sample usage= were obtained from the GSFC/ SPDF OMNIWeb interface at  
 
-    52. Title=Forbush Decrease Characteristics in a Magnetic Cloud
+    1.  Title=Forbush Decrease Characteristics in a Magnetic Cloud
     Authors=A. S. Petukhova; I. S. Petukhov; S. I. Petukhov;
     article=2020SW002616; doi=10.1029/2020SW002616; pubdate=21 November 2020
     Keywords found: OMNIWeb, OMNI
     Sample usage= database (https:// omniweb .gsfc.nasa.gov/form/dx1.html). The results of CR
     Sample usage= MC are taken from the OMNI
 
-    53. Title=Long term monitoring of energetic protons at the bottom of Earth's radiation belt
+    1.  Title=Long term monitoring of energetic protons at the bottom of Earth's radiation belt
     Authors=K. Yoshioka; Y. Miyoshi; S. Kurita; M. Teramoto; F. Tsuchiya; A. Yamazaki; G. Murakami; T. Kimura; H. Kita; I. Yoshikawa; Y. Kasaba;
     article=2020SW002611; doi=10.1029/2020SW002611; pubdate=12 December 2020
     Keywords found: OMNIWeb, OMNI, SPDF
@@ -424,7 +421,7 @@ journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
     Sample usage= data were taken from the OMNI database [King and Papitashvili, 2004].
     Sample usage= GSFC/ SPDF OMNI Web interface at https://omniweb.gsfc.nasa.gov/.
 
-    54. Title=Radiation Data Portal: Integration of Radiation Measurements at the Aviation Altitudes and Solar Terrestrial Environment Observations
+    1.  Title=Radiation Data Portal: Integration of Radiation Measurements at the Aviation Altitudes and Solar Terrestrial Environment Observations
     Authors=V.M. Sadykov; I.N. Kitiashvili; W. K. Tobiska; M. Guhathakurta;
     article=2020SW002653; doi=10.1029/2020SW002653; pubdate=13 December 2020
     Keywords found: CDAWeb
@@ -3258,3 +3255,6 @@ Physics](https://www.springer.com/journal/11207) for 2020**
     Sample usage= http:// omniweb .gsfc.nasa.gov/, and we included the
     Sample usage= Data Facility OMNIWeb service, and OMNI data.
     Sample usage= We acknowledge use of NASA/GSFC Space Physics Data Facility OMNIWeb service, and OMNI data.
+`;
+
+export default Acknownledgments2020;

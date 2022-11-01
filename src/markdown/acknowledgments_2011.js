@@ -1,9 +1,4 @@
----
-title: "Acknowledgements 2011"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
-
+const Acknownledgments2011 = `
 **ACKNOWLEDGMENTS 2011**
 
 The AGU journals 'Space Weather', 'Journal of Geophysical Research/Space
@@ -46,7 +41,7 @@ Vennerstrom, D. Odstrcil, D. Brain, G. Delory and D. Mitchell\
  http://www.agu.org/journals/sw/sw1109/2011SW000682/2011SW000682.pdf\
  Keyword found: OMNI\
  \
- 2. Title=Profound change of the near-Earth radiation environment caused
+ 1. Title=Profound change of the near-Earth radiation environment caused
 by solar superstorms\
  Authors=Yuri Shprits, Dmitriy Subbotin, Binbin Ni, Richard Horne,
 Daniel Baker and Patrick Cruce\
@@ -1312,3 +1307,7 @@ Riedel\
 
 \
 
+
+`;
+
+export default Acknownledgments2011;

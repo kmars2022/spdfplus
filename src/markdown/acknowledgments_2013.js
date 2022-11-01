@@ -1,9 +1,4 @@
----
-title: "Acknowledgements 2013"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
-
+const Acknownledgments2013 = `
 **ACKNOWLEDGMENTS 2013**
 
 The AGU journals 'Space Weather', 'Journal of Geophysical Research/Space
@@ -121,7 +116,7 @@ Kissmann K. Scherer\
  article=2012JA018089; doi=10.1029/2012JA018089; pubdate=27 JAN 2013\
  Keyword found: OMNI\
  \
- 2. Title=Large deviations of the magnetic field from the Parker spiral
+ 1. Title=Large deviations of the magnetic field from the Parker spiral
 in CRRs: Validity of the Schwadron model\
  Authors=Edward J. Smith\
  article=jgra.50098; doi=10.1002/jgra.50098; pubdate=31 JAN 2013\
@@ -1389,3 +1384,7 @@ F1 critical frequency from vertical incidence ionograms\
 Hengqing Sun\
  article=2013RS005223; doi=10.1002/2013RS005223; pubdate=13 DEC 2013\
  Keyword found: NSSDC, International Reference Ionosphere
+
+`;
+
+export default Acknownledgments2013;

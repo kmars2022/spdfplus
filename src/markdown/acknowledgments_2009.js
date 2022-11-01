@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2009"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2009 = `
+
 
 **ACKNOWLEDGMENTS 2009**
 
@@ -46,7 +43,7 @@ for 2009\
 url=http://www.agu.org/journals/sw/sw0912/2009SW000482/2009SW000482.pdf\
  Keyword found: AP-8, AE-8\
  \
- 2. Title=Validation of community models: 2. Development of a baseline
+ 1. Title=Validation of community models: 2. Development of a baseline
 using the Wang-Sheeley-Arge model\
  Authors=Peter MacNeice\
  article=2009SW000489; doi=10.1029/2009SW000489; pubdate=10 December
@@ -1352,3 +1349,7 @@ url=http://www.agu.org/journals/rs/rs0901/2008RS003888/2008RS003888.pdf\
  Keyword found: International Reference Ionosphere, IRI-2007\
  \
 
+
+`;
+
+export default Acknownledgments2009;

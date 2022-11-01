@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2015"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2015 = `
+
 
 **ACKNOWLEDGMENTS 2015**
 
@@ -71,7 +68,7 @@ E. Borovsky J. S. Denton D. Pitchford D. P. Hartley\
  article=2015SW001194; doi=10.1002/2015SW001194; pubdate=12 MAY 2015\
  Keywords found: CDAWeb\
  \
- 7. Title=Validation for solar wind prediction at Earth: Comparison of
+ 1. Title=Validation for solar wind prediction at Earth: Comparison of
 coronal and heliospheric models installed at the CCMC\
  Authors=L. K. Jian P. J. MacNeice A. Taktakishvili D. Odstrcil B.
 Jackson H.-S. Yu P. Riley I. V. Sokolov R. M. Evans\
@@ -2283,3 +2280,7 @@ ionospheric disturbances\
  Keywords found: International Reference Ionosphere, IRI-2012\
  \
 
+
+`;
+
+export default Acknownledgments2015;

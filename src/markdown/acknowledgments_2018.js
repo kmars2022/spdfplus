@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2018"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2018 = `
+
 **ACKNOWLEDGMENTS 2018**
 
 The AGU journals 'Space Weather', 'Journal of Geophysical Research/Space
@@ -48,7 +45,7 @@ K. J.; Boakes, P. D.; \
  Sample usage= [309]ftp:// nssdcftp
 .gsfc.nasa.gov/pub/data/omni/low\_res\_omni/omni2\_all\_ \
  \
- 2. Title=Midlatitude Plasma Bubbles Over China and Adjacent Areas
+ 1. Title=Midlatitude Plasma Bubbles Over China and Adjacent Areas
 During a Magnetic Storm on 8 September 2017\
  Authors=Ercha Aa; Wengeng Huang; Siqing Liu; Aaron Ridley; Shasha Zou;
 Liqin Shi; Yanhong Chen; Hua Shen; Tianjiao Yuan; Jianyong Li; Tan Wang;
@@ -3431,3 +3428,7 @@ model. \
  Sample usage= q = 3 and the IRI2016 Ne(h) profiles. In this case \
  \
 
+
+`;
+
+export default Acknownledgments2018;

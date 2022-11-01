@@ -6,13 +6,13 @@ The heliophysics research community makes heavy use of SPDF data and services, a
 
 The following lists papers in Journal of Geophysical Research (Space Physics) and Geophysical Research Letters that we identified as acknowledging of SPDF and SPDF related data or services.
 
-[2021 Acknowledgements/Bibliography](./acknowledgments_2021.md)
+[2021 Acknowledgements/Bibliography](/Acknowledgements_2021)
 
-[2020 Acknowledgements/Bibliography](./acknowledgments_2020.md)
+[2020 Acknowledgements/Bibliography](/Acknowledgements_2020)
 
-[2019 Acknowledgements/Bibliography](./acknowledgments_2019.md)
+[2019 Acknowledgements/Bibliography](/Acknowledgements_2019)
 
-[2018 Acknowledgements/Bibliography](./acknowledgments_2018.md)
+[2018 Acknowledgements/Bibliography](/Acknowledgements_2012)
 
 [2017 Acknowledgements/Bibliography](./acknowledgments_2017.md)
 

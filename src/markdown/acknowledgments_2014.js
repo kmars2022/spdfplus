@@ -1,8 +1,4 @@
----
-title: "Acknowledgements 2014"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2014 = `
 
 **ACKNOWLEDGMENTS 2014**
 
@@ -42,7 +38,7 @@ Korth R. Redmon B. Mero N. Parrish\
  article=2013SW000987; doi=10.1002/2013SW000987; pubdate=7 JAN 2014\
  Keywords found: OMNIWeb, OMNI, Space Physics Data Facility\
  \
- 2. Title=Single-event upsets in the Cluster and Double Star Digital
+ 1. Title=Single-event upsets in the Cluster and Double Star Digital
 Wave Processor instruments\
  Authors=K. H. Yearby M. Balikhin S. N. Walker\
  article=2013SW000985; doi=10.1002/2013SW000985; pubdate=9 JAN 2014\
@@ -1891,3 +1887,7 @@ less-than-minor geomagnetic storm\
  article=2014RS005418; doi=10.1002/2014RS005418; pubdate=26 DEC 2014\
  Keywords found: OMNIWeb\
 
+
+`;
+
+export default Acknownledgments2014;

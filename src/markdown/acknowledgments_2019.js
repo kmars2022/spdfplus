@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2019"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2019 = `
+
 **ACKNOWLEDGMENTS 2019**
 
 The AGU journals 'Space Weather', 'Journal of Geophysical Research/Space
@@ -6820,7 +6817,7 @@ Keywords found: OMNIWeb, International Reference Ionosphere
 Sample usage= from the OmniWeb (https://omniweb.
 
 Sample usage= Bilitza, D. (2000). International reference ionosphere
-2000. Radio Science, 36(2),
+1.    Radio Science, 36(2),
 
 ​4. Title=Intermittency in Solar Wind Turbulence From Fluid to Kinetic
 Scales
@@ -7396,3 +7393,7 @@ Keywords found: OMNIWeb, SPDF
 Sample usage= are obtained from the GSFC/SPDF OMNIWeb
 
 Sample usage= are obtained from the GSFC/ SPDF OMNIWeb
+
+`;
+
+export default Acknownledgments2019;

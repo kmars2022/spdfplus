@@ -1,8 +1,5 @@
----
-title: "Acknowledgements 2017"
-date: 2022-03-14T08:38:44-04:00
-layout: "acknowledgements"
----
+const Acknownledgments2017 = `
+
 
 **ACKNOWLEDGMENTS 2017**
 
@@ -43,7 +40,7 @@ Looper, M. D.; Mazur, J. E.; Schiller, Q.;\
  Sample usage= index was obtained from available SPDF OMNIweb data
 files.\
  \
- 2. Title=Extreme geomagnetic storms: Probabilistic forecasts and their
+ 1. Title=Extreme geomagnetic storms: Probabilistic forecasts and their
 uncertainties\
  Authors=Riley, Pete; Love, Jeffrey J.;\
  article=2016SW001470; doi=10.1002/2016SW001470; pubdate=10 January
@@ -3798,3 +3795,7 @@ Langley, Richard B.; Durgonics, Tibor; \
 climatological \
  \
 
+
+`;
+
+export default Acknownledgments2017;
