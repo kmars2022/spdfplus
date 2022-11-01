@@ -16,7 +16,7 @@ Heliophysics Virtual Observatories
 
 Miscellaneous
 
-[\+ SPDS Related Reports](/reports.html)
+[\+ SPDS Related Reports](/Reports)
 `;
 
 export default historyMarkdown;

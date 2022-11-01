@@ -116,7 +116,7 @@ const HeaderA = () => {
             <a href="https://omniweb.gsfc.nasa.gov/">OMNIWeb Plus (now including COHOWeb, ATMOWeb, FTP Browser, HelioWeb and CGM)</a>
             </li>
             <li className="usa-nav__submenu-item">
-            <a href="https://sscweb.gsfc.nasa.gov/">Heliophysics API (HAPI)</a>
+            <a href="https://cdaweb.gsfc.nasa.gov/hapi">Heliophysics API (HAPI)</a>
             </li>
             <li className="usa-nav__submenu-item">
             <a href="https://sscweb.gsfc.nasa.gov/">SSCWeb (orbit search)</a>
@@ -164,7 +164,7 @@ const HeaderA = () => {
           <a href="https://spdf.gsfc.nasa.gov/makecdf.html">MakeCDF</a>
           </li>
           <li className="usa-nav__submenu-item">
-          <a href="https://spdf.gsfc.nasa.gov/CDAWlib.html">CDAWlib</a>
+          <Link to="/cdawlib">CDAWlib</Link>
           </li>
           <li className="usa-nav__submenu-item">
           <a href="https://cdaweb.gsfc.nasa.gov/cdaweb/cdfx/">CDFX (IDL)</a> 

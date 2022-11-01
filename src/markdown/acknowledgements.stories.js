@@ -1,5 +1,7 @@
 const acknowledgmentsmarkdown = `
 
+# SPDF Acknowledgements
+
 The heliophysics research community makes heavy use of SPDF data and services, as evidenced both in our [usage statistics](//spdf.gsfc.nasa.gov/spdf-secaa_usage.html) and in acknowledgments of our services in published papers. [![Total number and percentages of SPDF acknowledgments](/images/SPDF_JGRGRLAcknowledgments.png)](/images/SPDF_JGRGRLAcknowledgments.png)
 
 The following lists papers in Journal of Geophysical Research (Space Physics) and Geophysical Research Letters that we identified as acknowledging of SPDF and SPDF related data or services.

@@ -1,5 +1,5 @@
 const statistics = `
-| [Acknowledgements](acknowledgments.html) |
+# Use of SPDF/SECAA Services
 
 Monthly Use of SPDF Data Services:
 

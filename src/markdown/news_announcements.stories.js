@@ -1,29 +1,6 @@
 const newAnnouncements =`
-<!-- SPDF - About the Space Physics Data Facility 
 
-News and Announcements
-
-[\+ REPORTS](/pubs/reports.html)
-
-[\+ STAFF](/staff.html)
-
-[\+ SCIENCE ENABLED](/research.html)
-
-[\+ DATA SERVICE USAGE](/spdf-secaa_usage.html)
-
-[\+ FEEDBACK/SUPPORT](mailto:NASA-SPDF-Support@nasa.onmicrosoft.com?Subject=Feedback/Support from SPDF)
-
-[\+ Heliophysics Science Division](https://science.gsfc.nasa.gov/heliophysics/)
-
-[\+ Earth Sciences Division](https://science.gsfc.nasa.gov/earth/)
-
-[\+ NSSDCA Home](https://nssdca.gsfc.nasa.gov/) -->
-
-  
-
-  
-
- 
+# News and Announcements
 
 October 2021: The Parker Solar Probe (PSP) data have been extended to June 2021 (for FIELDS) and July 2021 (for SWEAP and ISOIS), which covers all of Orbit 8, including Encounter 8 with perihelion in April 2021. The FIELDS and SWEAP data have updated quality flags. Because EPI-Lo species identification tables were updated on 14 June 2021, the ion composition (IC) files in this release have added the variables related to N and Ne count rates, although they are not populated yet.
 

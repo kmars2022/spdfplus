@@ -46,22 +46,21 @@ const Home = () => {
                 <a href="//cdf.gsfc.nasa.gov" target="_blank">Common Data Format (CDF) </a>Version 3.8.0 is now available. Updates for Perl, IDL, Matlab, and Java interfaces and the <a href="./skteditor">SKTeditor CDF editor </a>are available. For
                 further details and changes, see the <a href="//cdf.gsfc.nasa.gov/html/CDF_changesnote.html" target="_blank">CDF release notes</a>.
 
-                <div className="boldFeature" style={{ fontSize: '13px',  borderTop:'1px solid #069', paddingBottom: '0.5em', paddingTop: '0.5em', marginTop:'0.5em'}}><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}} />&nbsp; <a
-                    href="./news_announcements.html#PSP4" target="_blank">Previous Parker Solar Probe (PSP) Data updates</a></div>
+                <div className="boldFeature" style={{ fontSize: '13px',  borderTop:'1px solid #069', paddingBottom: '0.5em', paddingTop: '0.5em', marginTop:'0.5em'}}><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}} />&nbsp; <Link to="./NewAnnouncements" target="_blank">Previous Parker Solar Probe (PSP) Data updates</Link></div>
 
                 {/* <!-- <div class="boldFeature" style="font-size:13px;  border-top:1px solid #069; padding-bottom: 0.5em; padding-top:0.5em; margin-top:0.5em"><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}}/>&nbsp; <a href="./news_announcements.html#HTTPS_ANNOUNCE" target="_blank"> Move from HTTP to HTTPS</a></div> -->
 
                 <!-- <div class="boldFeature" style="font-size:13px;  border-top:1px solid #069; padding-bottom: 0.5em; padding-top:0.5em; margin-top:0.5em"><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}}/>&nbsp; <a href="./news_announcements.html#SUNSPOT" target="_blank"> Revised Definition of the Sunspot Number Index</a></div> -->
 
                 <!-- <div class="boldFeature" style="font-size:13px;  border-top:1px solid #069; padding-bottom: 0.5em; padding-top:0.5em; margin-top:0.5em"><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}}/>&nbsp; <a href="./news_announcements.html#Relocate" target="_blank"> Relocation of Directories and Files Served by FTP by SPDF and NSSDC </a></div> --> */}
-                <div className="boldFeature" style={{ fontSize: '13px',  borderTop:'1px solid #069', paddingBottom: '0.5em', paddingTop: '0.5em', marginTop:'0.5em'}}><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}} />&nbsp; <a
-                    href="./news_announcements.html#PSP4" target="_blank">Let's Not Lose Our Data</a></div>
+                <div className="boldFeature" style={{ fontSize: '13px',  borderTop:'1px solid #069', paddingBottom: '0.5em', paddingTop: '0.5em', marginTop:'0.5em'}}><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}} />&nbsp;
+                    <Link to="./NewAnnouncements" target="_blank">Let's Not Lose Our Data</Link></div>
                 
                 
 
                 {/* <!-- <div class="boldFeature" style="font-size:13px;  border-top:1px solid #069; padding-bottom: 0.5em; padding-top:0.5em; margin-top:0.5em"><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}}/>&nbsp; <a href="./news_announcements.html#Responsibilities" target="_blank">Changed Responsibilities in Archiving NASA Heliophysics Data</a></div> --> */}
 
-                <div className="boldFeature" style={{ fontSize: '13px',  borderTop:'1px solid #069', paddingBottom: '0.5em', paddingTop: '0.5em', marginTop:'0.5em'}}><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}} />&nbsp; <Link to="./news_announcements.js#PSP4" target="_blank">All News</Link></div>
+                <div className="boldFeature" style={{ fontSize: '13px',  borderTop:'1px solid #069', paddingBottom: '0.5em', paddingTop: '0.5em', marginTop:'0.5em'}}><img src="/icons/forward.gif" alt="page icon" style={{textAlign: 'left'}} />&nbsp; <Link to="./NewAnnouncements" target="_blank">All News</Link></div>
 
                 </p>
 

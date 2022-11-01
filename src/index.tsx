@@ -15,6 +15,9 @@ import Statistics from './pages/Statistics';
 import HistoryP from './pages/History';
 import SubmittingData from './pages/submittingData';
 import NewData from './pages/newData';
+import Announcements from './pages/new_announcements';
+import Reports from './pages/reports';
+import Cdawlib from './pages/cdawlib';
 import './index.css'
 
 const root = ReactDOM.createRoot(
@@ -44,6 +47,12 @@ root.render(
           <Route path="/SubmittingData" element={<SubmittingData/>}>
           </Route>
           <Route path="/NewData" element={<NewData/>}>
+          </Route>
+          <Route path="/NewAnnouncements" element={<Announcements/>}>
+          </Route>
+          <Route path="/reports" element={<Reports/>}>
+          </Route>
+          <Route path="/cdawlib" element={<Cdawlib/>}>
           </Route>
         </Routes>
       </main>
