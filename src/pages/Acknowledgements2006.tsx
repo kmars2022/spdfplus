@@ -5,7 +5,7 @@ import remarkGfm from "remark-gfm";
 
 
 
-const Acknowledgements_2006 = () => {
+const Acknowledgements2006 = () => {
     return(
          <>
           
@@ -27,4 +27,4 @@ const Acknowledgements_2006 = () => {
     )
 }
 
-export default Acknowledgements_2006;
+export default Acknowledgements2006;

@@ -41,7 +41,8 @@ const HeaderA = () => {
     </div>
     <nav aria-label="Primary navigation" className="usa-nav">
       <button type="button" className="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+        <img src={require('../../images/close.svg').default} role="img" alt="Close" />
+        
       </button>
       <ul className="usa-nav__primary usa-accordion">
         <li className="usa-nav__primary-item">

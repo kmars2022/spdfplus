@@ -21,7 +21,7 @@ Example Case Studies in the Use of SPDF Data Services -
 *   Two magnetospheric oscillation papers (Huang et al, 2003a and 2003b) both make extensive use of CDAWeb data correlated to other sources for investigation of global magnetospheric response to solar wind pressure impulses.
 *   SPDF's services are acknowledged as playing an important role in developing geospace models as well as in helping the science community with the use of these models.
 
-[\[ Read More... \]](/SPDF_CaseStudies.pdf)
+[\[ Read More... \]](/images/SPDF_CaseStudies.pdf)
 `;
 
 export default statistics;

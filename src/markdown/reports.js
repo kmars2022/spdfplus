@@ -1,5 +1,5 @@
 const Reports = `
-![SPDS Logo](SPDdevelop_temp/spd_comb.gif)
+![SPDS Logo](/images/spd_comb.gif)
 
 # SPDS Related Reports
 --------------------

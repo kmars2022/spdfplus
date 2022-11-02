@@ -11,22 +11,22 @@ import About from './pages/About';
 import Staff from './pages/Staff';
 // import heroImg from './images/Helio_Teams_Background_5_SPDF_Crop_Wider.jpg'
 import Acknowledgements from './pages/Acknowledgements';
-import Acknowledgements_2006 from './pages/Acknowledgements2006';
-import Acknowledgements_2007 from './pages/Acknowledgements2007';
-import Acknowledgements_2008 from './pages/Acknowledgements2008';
-import Acknowledgements_2009 from './pages/Acknowledgements2009';
-import Acknowledgements_2010 from './pages/Acknowledgements2010';
-import Acknowledgements_2011 from './pages/Acknowledgements2011';
-import Acknowledgements_2012 from './pages/Acknowledgements2012';
-import Acknowledgements_2013 from './pages/Acknowledgements2013';
-import Acknowledgements_2014 from './pages/Acknowledgements2014';
-import Acknowledgements_2015 from './pages/Acknowledgements2015';
-import Acknowledgements_2016 from './pages/Acknowledgements2016';
-import Acknowledgements_2017 from './pages/Acknowledgements2017';
-import Acknowledgements_2018 from './pages/Acknowledgements2018';
-import Acknowledgements_2019 from './pages/Acknowledgements2019';
-import Acknowledgements_2020 from './pages/Acknowledgements2020';
-import Acknowledgements_2021 from './pages/Acknowledgements2021';
+import Acknowledgements2006 from './pages/Acknowledgements2006';
+import Acknowledgements2007 from './pages/Acknowledgements2007';
+import Acknowledgements2008 from './pages/Acknowledgements2008';
+import Acknowledgements2009 from './pages/Acknowledgements2009';
+import Acknowledgements2010 from './pages/Acknowledgements2010';
+import Acknowledgements2011 from './pages/Acknowledgements2011';
+import Acknowledgements2012 from './pages/Acknowledgements2012';
+import Acknowledgements2013 from './pages/Acknowledgements2013';
+import Acknowledgements2014 from './pages/Acknowledgements2014';
+import Acknowledgements2015 from './pages/Acknowledgements2015';
+import Acknowledgements2016 from './pages/Acknowledgements2016';
+import Acknowledgements2017 from './pages/Acknowledgements2017';
+import Acknowledgements2018 from './pages/Acknowledgements2018';
+import Acknowledgements2019 from './pages/Acknowledgements2019';
+import Acknowledgements2020 from './pages/Acknowledgements2020';
+import Acknowledgements2021 from './pages/Acknowledgements2021';
 import Statistics from './pages/Statistics';
 import HistoryP from './pages/History';
 import SubmittingData from './pages/submittingData';
@@ -70,37 +70,37 @@ root.render(
           </Route>
           <Route path="/cdawlib" element={<Cdawlib/>}>
           </Route>
-          <Route path="/Acknowledgements_2006" element={<Acknowledgements_2006/>}>
+          <Route path="/Acknowledgements_2006" element={<Acknowledgements2006/>}>
           </Route>
-          <Route path="/Acknowledgements_2007" element={<Acknowledgements_2007/>}>
+          <Route path="/Acknowledgements_2007" element={<Acknowledgements2007/>}>
           </Route>
-          <Route path="/Acknowledgements_2008" element={<Acknowledgements_2008/>}>
+          <Route path="/Acknowledgements_2008" element={<Acknowledgements2008/>}>
           </Route>
-          <Route path="/Acknowledgements_2009" element={<Acknowledgements_2009/>}>
+          <Route path="/Acknowledgements_2009" element={<Acknowledgements2009/>}>
           </Route>
-          <Route path="/Acknowledgements_2010" element={<Acknowledgements_2010/>}>
+          <Route path="/Acknowledgements_2010" element={<Acknowledgements2010/>}>
           </Route>
-          <Route path="/Acknowledgements_2011" element={<Acknowledgements_2011/>}>
+          <Route path="/Acknowledgements_2011" element={<Acknowledgements2011/>}>
           </Route>
-          <Route path="/Acknowledgements_2012" element={<Acknowledgements_2012/>}>
+          <Route path="/Acknowledgements_2012" element={<Acknowledgements2012/>}>
           </Route>
-          <Route path="/Acknowledgements_2013" element={<Acknowledgements_2013/>}>
+          <Route path="/Acknowledgements_2013" element={<Acknowledgements2013/>}>
           </Route>
-          <Route path="/Acknowledgements_2014" element={<Acknowledgements_2014/>}>
+          <Route path="/Acknowledgements_2014" element={<Acknowledgements2014/>}>
           </Route>
-          <Route path="/Acknowledgements_2015" element={<Acknowledgements_2015/>}>
+          <Route path="/Acknowledgements_2015" element={<Acknowledgements2015/>}>
           </Route>
-          <Route path="/Acknowledgements_2016" element={<Acknowledgements_2016/>}>
+          <Route path="/Acknowledgements_2016" element={<Acknowledgements2016/>}>
           </Route>
-          <Route path="/Acknowledgements_2017" element={<Acknowledgements_2017/>}>
+          <Route path="/Acknowledgements_2017" element={<Acknowledgements2017/>}>
           </Route>
-          <Route path="/Acknowledgements_2018" element={<Acknowledgements_2018/>}>
+          <Route path="/Acknowledgements_2018" element={<Acknowledgements2018/>}>
           </Route>
-          <Route path="/Acknowledgements2019" element={<Acknowledgements_2019/>}>
+          <Route path="/Acknowledgements2019" element={<Acknowledgements2019/>}>
           </Route>
-          <Route path="/Acknowledgements2020" element={<Acknowledgements_2020/>}>
+          <Route path="/Acknowledgements2020" element={<Acknowledgements2020/>}>
           </Route>
-          <Route path="/Acknowledgements2021" element={<Acknowledgements_2021/>}>
+          <Route path="/Acknowledgements_2021" element={<Acknowledgements2021/>}>
           </Route>
         </Routes>
       </main>
