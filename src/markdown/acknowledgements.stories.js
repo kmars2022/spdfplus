@@ -38,9 +38,10 @@ The following lists papers in Journal of Geophysical Research (Space Physics) an
 
 [2007 Acknowledgements/Bibliography](/Acknowledgements_2007)
 
-[2006 Acknowledgements/Bibliography](/Acknowledgements_2006)
+[2006 Acknowledgements/Bibliography](/Acknowledgements2006)
 
 [2005 Acknowledgements/Bibliography](/images/2005Bibliography.pdf)
-`;
+`
+;
 
 export default acknowledgmentsmarkdown;

@@ -20,8 +20,8 @@ const HeaderA = () => {
       >
         <div className="grid-container">
           {/* <div class="usa-hero__callout"> */}
-                    <img className="usa-footer__logo-img" src={require("../../images/nasa-logo-web-rgb.jpg")} alt="NASA Logo" />
-
+                    {/* <img className="usa-footer__logo-img" src={require("../../images/nasa-logo-web-rgb.jpg")} alt="NASA Logo" /> */}
+        <span><br/><br/><br/></span>
         
           <div>
            
@@ -46,7 +46,7 @@ const HeaderA = () => {
       </button>
       <ul className="usa-nav__primary usa-accordion">
         <li className="usa-nav__primary-item">
-          <a href="https://www.nasa.gov/" className="usa-nav-link"><img className="usa-footer__logo-img" src={require("../../images/nasa-logo-web-rgb.jpg")} alt="NASA Logo" />
+          <a href="https://www.nasa.gov/" className="usa-nav-link"><img className="usa-footer__logo-img spdf-Logo" src={require("../../images/nasa-logo-web-rgb.jpg")} alt="NASA Logo" />
 </a>
         </li>
         <li className="usa-nav__primary-item">
@@ -56,7 +56,7 @@ const HeaderA = () => {
         <li className="usa-nav__primary-item">
           <button
             type="button"
-            className="usa-accordion__button usa-nav__link usa-current"
+            className="usa-accordion__button usa-nav__link "
             aria-expanded="false"
             aria-controls="basic-nav-section-one"
           >
@@ -67,17 +67,17 @@ const HeaderA = () => {
               <Link to='/'>Home</Link>
             </li>
             <li className="usa-nav__submenu-item">
-            <Link to='/About'>About</Link>
+            <Link to='About'>About</Link>
             </li>
             <li className="usa-nav__submenu-item">
-            <Link to='/Staff'>Staff</Link>
+            <Link to='Staff'>Staff</Link>
             </li>
             <li className="usa-nav__submenu-item">
-            <Link to="/Acknowledgements">Acknowledgements</Link>            </li>
+            <Link to="Acknowledgements">Acknowledgements</Link>            </li>
             <li className="usa-nav__submenu-item">
-            <Link to="/Statistics">Usage Statistics</Link>            </li>
+            <Link to="Statistics">Usage Statistics</Link>            </li>
             <li className="usa-nav__submenu-item">
-            <Link to="/History">History</Link>            </li>
+            <Link to="History">History</Link>            </li>
             <li className="usa-nav__submenu-item">
             <a href="mailto:NASA-SPDF-Support@nasa.onmicrosoft.com?Subject=Feedback/Support from SPDF">SPDF Feedback/Support</a>
             </li>
@@ -90,7 +90,7 @@ const HeaderA = () => {
             aria-expanded="false"
             aria-controls="basic-nav-section-two"
           >
-            <span>Data Orbits</span>
+            <span>Data & Orbits</span>
           </button>
           <ul hidden id="basic-nav-section-two" className="usa-nav__submenu">
             <li className="usa-nav__submenu-item">
@@ -142,7 +142,7 @@ const HeaderA = () => {
         <li className="usa-nav__primary-item">
           <button
             type="button"
-            className="usa-accordion__button usa-nav__link usa-current"
+            className="usa-accordion__button usa-nav__link "
             aria-expanded="false"
             aria-controls="basic-nav-section-three"
           >

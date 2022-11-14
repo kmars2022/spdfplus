@@ -38,7 +38,7 @@ papers\
 journal](https://agupubs.onlinelibrary.wiley.com/journal/15427390) for
 2021**
 
-     
+   \\\  
     1. Title=Ground based GNSS and C/NOFS Observations of Ionospheric Irregularities over
     Africa: A Case Study of the 2013 St. Patrick's Day Geomagnetic Storm
     Authors=P. O. Amaechi; E. O. Oyeyemi; A. O. Akala; H. E. Messanga; S. K. Panda; Gopi K.

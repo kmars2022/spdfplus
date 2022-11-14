@@ -5,7 +5,11 @@
     max-width: 100%;
 }
 .usa-nav__primary>.usa-nav__primary-item {
-
+    width: 10vw;
+    height: 10vh;
+}
+.usa-nav__primary>.usa-nav__primary-item a{
+    font-size: 1.1rem;
 }
 .usa-header--basic .usa-nav{
     justify-content: start;
@@ -33,13 +37,25 @@ p{
 .usa-nav__primary .usa-accordion__button span , #root > header > div > nav > ul > li:nth-child(1) > a > span, #root > header > div > nav > ul > li:nth-child(2) > a > span  {
     margin-right: 0;
     padding-right: 1rem;
-    font-size: 1.2em;
-    font-weight: 100;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 @media (min-width: 64em){
     #root > header > div > div {
         display: none !important;
     }
+}
+
+#root > header > div > nav > ul{
+width:100%;
+}
+
+.spdf-Logo{
+    max-width: 100%;
+}
+
+#root > header > div > nav > ul > li:nth-child(1) > a{
+    padding: 0;
 }
 
